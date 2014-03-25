@@ -21,9 +21,9 @@ Using this tool, you can detect the network latency between hosts in micro-secon
 ## Usage
 
 The network configuration is described in file network.cfg. The configuration file is consist of sections start with [session name], each section refesants of a network connection need to be tested. Each section consists of following vatiables:
-* SRC_HOST: The hostname (or IP address) of source server. The machine running this tool will use this IP address to connect source server.
-* DST_HOST: The hostname (or IP address) of destation server. The machine running this tool will use this IP address to connect destation server.
-* DST\_HOST\_INTERNAL: The hostname (or IP address) of destation server that is used to connect to source server. If this value is not set, will use DST_HOST as default.
+* **SRC_HOST**: The hostname (or IP address) of source server. The machine running this tool will use this IP address to connect source server.
+* **DST_HOST**: The hostname (or IP address) of destation server. The machine running this tool will use this IP address to connect destation server.
+* **DST\_HOST\_INTERNAL**: The hostname (or IP address) of destation server that is used to connect to source server. If this value is not set, will use DST_HOST as default.
 
 For example, gived following network configuration, the network.cfg will looks like this:
 ```
