@@ -39,5 +39,9 @@ DST_HOST_INTERNAL = sample2.internal.com
 [s2]
 SRC_HOST = sample1.com
 DST_HOST = sample3.com
-DST_HOST_INTERNAL = sample32.internal.com
+DST_HOST_INTERNAL = sample3.internal.com
+```
+To run this tool, simple type:
+```
+python NetLatency.py
 ```
