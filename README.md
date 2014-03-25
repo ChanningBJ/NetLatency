@@ -25,7 +25,9 @@ The network configuration is described in file network.cfg. The configuration fi
 * **DST_HOST**: The hostname (or IP address) of destation server. The machine running this tool will use this IP address to connect destation server.
 * **DST\_HOST\_INTERNAL**: The hostname (or IP address) of destation server that is used to connect to source server. If this value is not set, will use DST_HOST as default.
 
-For example, gived following network configuration, the network.cfg will looks like this:
+For example, gived following network configuration: server1, server2 and server3 talking with each other through internal network and the PC which running this tool connect to server1, server2 and server3 through the external network. 
+![](/https://raw.githubusercontent.com/Chengming/NetLatency/master/network.jpeg)
+If we want to test the network latency between server1 and server2, server1 and server3, the network.cfg will looks like this:
 ```
 [s1]
 SRC_HOST = sample1.com
